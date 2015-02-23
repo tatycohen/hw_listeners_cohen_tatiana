@@ -1,5 +1,5 @@
 URL:
-tatianacohen.com/MMC6278/hw_listeners_cohen_tatiana
+https://github.com/tatycohen/hw_listeners_cohen_tatiana
 
 Resources:
 
