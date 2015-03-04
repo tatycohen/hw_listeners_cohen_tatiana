@@ -4,14 +4,14 @@
 
 var myForm = document.forms[0];
 
-function getFormData (){
+function getFormData (event){
+	event.preventDefault();
 	console.log(
 		myForm.elements[0].value,
 		myForm.elements[1].value,
 		myForm.elements[2].value,
 		myForm.elements[3].value
 	);
-	alert("Thank you, your form has been submitted!");
 }
 
 myForm.addEventListener ("submit" , getFormData, false);
